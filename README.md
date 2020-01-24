@@ -1,12 +1,12 @@
-#Birt service for spring
+###Birt service for spring
 
 This library allow use BIRT in your based spring application.
 
-##Table of Content
+###Table of Content
 
 - [How use](#how-use)
 
-### How use
+####How use
 
 Add dependency
 
