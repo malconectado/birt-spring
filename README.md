@@ -34,19 +34,6 @@ Controller example based in [this tutorial](https://www.baeldung.com/birt-report
 ...
 
 
-/**
- * Birt engine controller based in 
- * 
- * @author jcastillo
- *
- */
-@Controller
-@RequestMapping("/report")
-public class BirtReportController {
-
-    @Autowired
-    private BirtReportService reportService;
-
     /**
      * Get metadata of a report
      * @param name
@@ -78,5 +65,5 @@ public class BirtReportController {
         
         reportService.generateReport(name, format,params, response, request);
     }
-}
+...
 ```
