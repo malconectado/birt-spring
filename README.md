@@ -21,7 +21,7 @@ Add dependency
 Register bean example in configuration
 
 ```java
-	@Bean
+    @Bean
     public BirtReportService getReportService() {
     	return new BirtReportService();
     }
