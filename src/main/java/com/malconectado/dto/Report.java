@@ -3,7 +3,6 @@ package com.malconectado.dto;
 import java.util.ArrayList;
 import java.util.List;
 
-import com.fasterxml.jackson.annotation.JsonFormat;
 
 /**
  * Report DTO class for report´s definitions.
